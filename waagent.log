@@ -1,0 +1,114 @@
+2019/04/12 06:17:29.427583 INFO Daemon Azure Linux Agent Version:2.2.32.2
+2019/04/12 06:17:29.436360 INFO Daemon OS: ubuntu 18.04
+2019/04/12 06:17:29.440945 INFO Daemon Python: 3.6.7
+2019/04/12 06:17:29.455891 INFO Daemon Creating cgroup directory /sys/fs/cgroup/cpu/system.slice/walinuxagent
+2019/04/12 06:17:29.463324 INFO Daemon Creating cgroup directory /sys/fs/cgroup/memory/system.slice/walinuxagent
+2019/04/12 06:17:29.469534 INFO Daemon Add daemon process pid 926 to walinuxagent systemd cgroup
+2019/04/12 06:17:29.474656 INFO Daemon CGroups: ok
+2019/04/12 06:17:29.477870 INFO Daemon Run daemon
+2019/04/12 06:17:29.481721 INFO Daemon Clean protocol
+2019/04/12 06:17:29.485717 INFO Daemon Running CloudInit provisioning handler
+2019/04/12 06:17:29.498632 INFO Daemon Detect protocol endpoints
+2019/04/12 06:17:29.503073 INFO Daemon Clean protocol
+2019/04/12 06:17:29.507057 INFO Daemon WireServer endpoint is not found. Rerun dhcp handler
+2019/04/12 06:17:29.511677 INFO Daemon Test for route to 168.63.129.16
+2019/04/12 06:17:29.515413 INFO Daemon Route to 168.63.129.16 exists
+2019/04/12 06:17:29.519454 INFO Daemon Wire server endpoint:168.63.129.16
+2019/04/12 06:17:29.533288 INFO Daemon Fabric preferred wire protocol version:2015-04-05
+2019/04/12 06:17:29.540575 INFO Daemon Wire protocol version:2012-11-30
+2019/04/12 06:17:29.545024 INFO Daemon Server preferred version:2015-04-05
+2019/04/12 06:17:29.785269 INFO Daemon Waiting for ssh host key be generated at /etc/ssh/ssh_host_rsa_key.pub [1800 attempts remaining, sleeping 1s]
+2019/04/12 06:17:30.797952 INFO Daemon Waiting for ssh host key be generated at /etc/ssh/ssh_host_rsa_key.pub [1799 attempts remaining, sleeping 1s]
+2019/04/12 06:17:31.810139 INFO Daemon Waiting for ssh host key be generated at /etc/ssh/ssh_host_rsa_key.pub [1798 attempts remaining, sleeping 1s]
+2019/04/12 06:17:32.822425 INFO Daemon Waiting for ssh host key be generated at /etc/ssh/ssh_host_rsa_key.pub [1797 attempts remaining, sleeping 1s]
+2019/04/12 06:17:33.835178 INFO Daemon Waiting for ssh host key be generated at /etc/ssh/ssh_host_rsa_key.pub [1796 attempts remaining, sleeping 1s]
+2019/04/12 06:17:34.847539 INFO Daemon Waiting for ssh host key be generated at /etc/ssh/ssh_host_rsa_key.pub [1795 attempts remaining, sleeping 1s]
+2019/04/12 06:17:35.941258 INFO Daemon Waiting for ssh host key be generated at /etc/ssh/ssh_host_rsa_key.pub [1794 attempts remaining, sleeping 1s]
+2019/04/12 06:17:36.954891 INFO Daemon Waiting for ssh host key be generated at /etc/ssh/ssh_host_rsa_key.pub [1793 attempts remaining, sleeping 1s]
+2019/04/12 06:17:37.967769 INFO Daemon Waiting for ssh host key be generated at /etc/ssh/ssh_host_rsa_key.pub [1792 attempts remaining, sleeping 1s]
+2019/04/12 06:17:38.979652 INFO Daemon Waiting for ssh host key be generated at /etc/ssh/ssh_host_rsa_key.pub [1791 attempts remaining, sleeping 1s]
+2019/04/12 06:17:39.999382 INFO Daemon Waiting for ssh host key be generated at /etc/ssh/ssh_host_rsa_key.pub [1790 attempts remaining, sleeping 1s]
+2019/04/12 06:17:41.014770 INFO Daemon ssh host key found at: /etc/ssh/ssh_host_rsa_key.pub
+2019/04/12 06:17:41.034947 INFO Daemon Thumbprint obtained from : /etc/ssh/ssh_host_rsa_key.pub
+2019/04/12 06:17:41.052423 INFO Daemon Finished provisioning
+2019/04/12 06:17:47.953393 INFO Daemon RDMA capabilities are not enabled, skipping
+2019/04/12 06:17:47.964114 INFO Daemon Installed Agent WALinuxAgent-2.2.32.2 is the most current agent
+2019/04/12 06:17:48.111272 INFO ExtHandler Agent WALinuxAgent-2.2.32.2 is running as the goal state agent
+2019/04/12 06:17:48.125483 INFO ExtHandler Wire server endpoint:168.63.129.16
+2019/04/12 06:17:48.145444 INFO ExtHandler Start env monitor service.
+2019/04/12 06:17:48.151700 INFO ExtHandler Configure routes
+2019/04/12 06:17:48.156812 INFO ExtHandler Gateway:None
+2019/04/12 06:17:48.157944 INFO ExtHandler Routes:None
+2019/04/12 06:17:48.158330 INFO ExtHandler Hostname record does not exist, creating [/var/lib/waagent/published_hostname] with hostname [c76]
+2019/04/12 06:17:48.228910 INFO ExtHandler WALinuxAgent-2.2.32.2 running as process 1430
+2019/04/12 06:17:48.227864 INFO ExtHandler Wire server endpoint:168.63.129.16
+2019/04/12 06:17:48.270207 INFO ExtHandler Wire server endpoint:168.63.129.16
+2019/04/12 06:17:48.477982 INFO ExtHandler Route table: [{"Iface": "eth0", "Destination": "0.0.0.0", "Gateway": "10.0.1.1", "Mask": "0.0.0.0", "Flags": "0x0003", "Metric": "100"},{"Iface": "eth0", "Destination": "10.0.1.0", "Gateway": "0.0.0.0", "Mask": "255.255.255.0", "Flags": "0x0001", "Metric": "0"},{"Iface": "eth0", "Destination": "168.63.129.16", "Gateway": "10.0.1.1", "Mask": "255.255.255.255", "Flags": "0x0007", "Metric": "100"},{"Iface": "eth0", "Destination": "169.254.169.254", "Gateway": "10.0.1.1", "Mask": "255.255.255.255", "Flags": "0x0007", "Metric": "100"}]
+2019/04/12 06:17:48.537617 INFO ExtHandler Initial NIC state: [{ "name": "lo", "link": "<LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000\    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00 promiscuity 0 addrgenmode eui64 numtxqueues 1 numrxqueues 1 gso_max_size 65536 gso_max_segs 65535 " }, { "name": "eth0", "link": "<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP mode DEFAULT group default qlen 1000\    link/ether 00:0d:3a:35:c3:b7 brd ff:ff:ff:ff:ff:ff promiscuity 0 addrgenmode eui64 numtxqueues 64 numrxqueues 64 gso_max_size 62780 gso_max_segs 65535 " }]
+2019/04/12 06:17:48.623441 INFO ExtHandler Successfully added Azure fabric firewall rules
+2019/04/12 06:17:48.635826 INFO ExtHandler Firewall rules:
+Chain INPUT (policy ACCEPT 9 packets, 279183 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain OUTPUT (policy ACCEPT 8 packets, 665 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+       0        0 ACCEPT     tcp  --  *      *       0.0.0.0/0            168.63.129.16        owner UID match 0
+       0        0 DROP       tcp  --  *      *       0.0.0.0/0            168.63.129.16        ctstate INVALID,NEW
+
+2019/04/12 06:17:48.697163 INFO ExtHandler Set block dev timeout: sdb with timeout: 300
+2019/04/12 06:17:48.703255 INFO ExtHandler Set block dev timeout: sda with timeout: 300
+2019/04/12 06:17:48.759957 INFO ExtHandler Agent WALinuxAgent-2.2.32.2 discovered update WALinuxAgent-2.2.39 -- exiting
+2019/04/12 06:17:48.976328 INFO Daemon Agent WALinuxAgent-2.2.32.2 launched with command 'python3 -u /usr/sbin/waagent -run-exthandlers' is successfully running
+2019/04/12 06:17:48.991152 INFO Daemon Determined Agent WALinuxAgent-2.2.39 to be the latest agent
+2019/04/12 06:17:49.658106 INFO ExtHandler Agent WALinuxAgent-2.2.39 is running as the goal state agent
+2019/04/12 06:17:49.707293 INFO ExtHandler Wire server endpoint:168.63.129.16
+2019/04/12 06:17:49.736544 INFO ExtHandler Tracking systemd cgroup for WALinuxAgent
+2019/04/12 06:17:49.748198 INFO ExtHandler Now tracking cgroup walinuxagent.service
+2019/04/12 06:17:49.764080 INFO ExtHandler Start env monitor service.
+2019/04/12 06:17:49.774702 INFO ExtHandler Configure routes
+2019/04/12 06:17:49.783080 INFO ExtHandler Gateway:None
+2019/04/12 06:17:49.803705 INFO ExtHandler Routes:None
+2019/04/12 06:17:49.836220 INFO ExtHandler Wire server endpoint:168.63.129.16
+2019/04/12 06:17:49.843696 INFO ExtHandler WALinuxAgent-2.2.39 running as process 1483
+2019/04/12 06:17:49.871779 INFO ExtHandler Route table: [{"Iface": "eth0", "Destination": "0.0.0.0", "Gateway": "10.0.1.1", "Mask": "0.0.0.0", "Flags": "0x0003", "Metric": "100"},{"Iface": "eth0", "Destination": "10.0.1.0", "Gateway": "0.0.0.0", "Mask": "255.255.255.0", "Flags": "0x0001", "Metric": "0"},{"Iface": "eth0", "Destination": "168.63.129.16", "Gateway": "10.0.1.1", "Mask": "255.255.255.255", "Flags": "0x0007", "Metric": "100"},{"Iface": "eth0", "Destination": "169.254.169.254", "Gateway": "10.0.1.1", "Mask": "255.255.255.255", "Flags": "0x0007", "Metric": "100"}]
+2019/04/12 06:17:49.866370 INFO ExtHandler Wire server endpoint:168.63.129.16
+2019/04/12 06:17:49.990885 INFO ExtHandler Initial NIC state: [{ "name": "lo", "link": "<LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000\    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00" }, { "name": "eth0", "link": "<BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP mode DEFAULT group default qlen 1000\    link/ether 00:0d:3a:35:c3:b7 brd ff:ff:ff:ff:ff:ff" }]
+2019/04/12 06:17:50.063048 INFO ExtHandler Wire server endpoint:168.63.129.16
+2019/04/12 06:17:50.101094 INFO ExtHandler Successfully added Azure fabric firewall rules
+2019/04/12 06:17:50.123972 INFO ExtHandler Firewall rules:
+Chain INPUT (policy ACCEPT 10 packets, 2895 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain FORWARD (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+
+Chain OUTPUT (policy ACCEPT 0 packets, 0 bytes)
+    pkts      bytes target     prot opt in     out     source               destination         
+      22     2522 ACCEPT     tcp  --  *      *       0.0.0.0/0            168.63.129.16        owner UID match 0
+       0        0 DROP       tcp  --  *      *       0.0.0.0/0            168.63.129.16        ctstate INVALID,NEW
+
+2019/04/12 06:17:50.164615 INFO ExtHandler Wire server endpoint:168.63.129.16
+2019/04/12 06:17:50.204878 INFO ExtHandler ProcessGoalState completed [incarnation 1; 141 ms]
+2019/04/12 06:18:17.499147 INFO [Microsoft.Azure.NetworkWatcher.NetworkWatcherAgentLinux-1.4.905.3] Target handler state: enabled
+2019/04/12 06:18:17.506369 INFO [Microsoft.Azure.NetworkWatcher.NetworkWatcherAgentLinux-1.4.905.3] [Enable] current handler state is: notinstalled
+2019/04/12 06:18:17.513862 INFO [Microsoft.Azure.NetworkWatcher.NetworkWatcherAgentLinux-1.4.905.3] Downloading extension package: https://zrdfepirv2by4prdstr09.blob.core.windows.net/c6638898a03248619c8b0f4cbe30030c/Microsoft.Azure.NetworkWatcher__NetworkWatcherAgentLinux__1.4.905.3
+2019/04/12 06:18:17.749412 INFO [Microsoft.Azure.NetworkWatcher.NetworkWatcherAgentLinux-1.4.905.3] Unzipping extension package: /var/lib/waagent/Microsoft.Azure.NetworkWatcher__NetworkWatcherAgentLinux__1.4.905.3.zip
+2019/04/12 06:18:17.874067 INFO [Microsoft.Azure.NetworkWatcher.NetworkWatcherAgentLinux-1.4.905.3] Initialize extension directory
+2019/04/12 06:18:17.882039 INFO [Microsoft.Azure.NetworkWatcher.NetworkWatcherAgentLinux-1.4.905.3] Update settings file: 0.settings
+2019/04/12 06:18:17.888819 INFO [Microsoft.Azure.NetworkWatcher.NetworkWatcherAgentLinux-1.4.905.3] Install extension [./install.sh install]
+2019/04/12 06:18:17.897792 INFO ExtHandler Move process 1697 into cgroup for extension Microsoft.Azure.NetworkWatcher.NetworkWatcherAgentLinux
+2019/04/12 06:18:17.905361 INFO ExtHandler Created cgroup /sys/fs/cgroup/cpu/WALinuxAgent/Microsoft.Azure.NetworkWatcher.NetworkWatcherAgentLinux
+2019/04/12 06:18:17.912876 INFO ExtHandler Created cgroup /sys/fs/cgroup/memory/WALinuxAgent/Microsoft.Azure.NetworkWatcher.NetworkWatcherAgentLinux
+2019/04/12 06:18:17.928003 INFO ExtHandler Now tracking cgroup Microsoft.Azure.NetworkWatcher.NetworkWatcherAgentLinux
+2019/04/12 06:18:26.954135 INFO [Microsoft.Azure.NetworkWatcher.NetworkWatcherAgentLinux-1.4.905.3] Enable extension [./install.sh enable]
+2019/04/12 06:18:26.965118 INFO ExtHandler Move process 1803 into cgroup for extension Microsoft.Azure.NetworkWatcher.NetworkWatcherAgentLinux
+2019/04/12 06:18:36.011208 INFO ExtHandler ProcessGoalState completed [incarnation 2; 18573 ms]
+2019/04/12 06:22:50.339698 INFO ExtHandler After updating cgroup telemetry, tracking [Microsoft.Azure.NetworkWatcher.NetworkWatcherAgentLinux] [walinuxagent.service]
+2019/04/12 06:32:49.651939 INFO Daemon Agent WALinuxAgent-2.2.39 launched with command 'python3 -u bin/WALinuxAgent-2.2.39-py2.7.egg -run-exthandlers' is successfully running
+2019/04/13 06:53:05.825896 INFO ExtHandler EnvMonitor: Detected dhcp client restart. Restoring routing table.
+2019/04/13 06:53:05.840736 INFO ExtHandler Configure routes
+2019/04/13 06:53:05.848604 INFO ExtHandler Gateway:None
+2019/04/13 06:53:05.854774 INFO ExtHandler Routes:None
