@@ -1,0 +1,1126 @@
+.
+├── WALinuxAgent
+│   ├── Microsoft.Azure.NetworkWatcher.NetworkWatcherAgentLinux
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── cgroup.clone_children
+│   ├── cgroup.procs
+│   ├── cpu.cfs_period_us
+│   ├── cpu.cfs_quota_us
+│   ├── cpu.shares
+│   ├── cpu.stat
+│   ├── cpuacct.stat
+│   ├── cpuacct.usage
+│   ├── cpuacct.usage_all
+│   ├── cpuacct.usage_percpu
+│   ├── cpuacct.usage_percpu_sys
+│   ├── cpuacct.usage_percpu_user
+│   ├── cpuacct.usage_sys
+│   ├── cpuacct.usage_user
+│   ├── notify_on_release
+│   └── tasks
+├── cgroup.clone_children
+├── cgroup.procs
+├── cgroup.sane_behavior
+├── cpu.cfs_period_us
+├── cpu.cfs_quota_us
+├── cpu.shares
+├── cpu.stat
+├── cpuacct.stat
+├── cpuacct.usage
+├── cpuacct.usage_all
+├── cpuacct.usage_percpu
+├── cpuacct.usage_percpu_sys
+├── cpuacct.usage_percpu_user
+├── cpuacct.usage_sys
+├── cpuacct.usage_user
+├── notify_on_release
+├── release_agent
+├── system.slice
+│   ├── accounts-daemon.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── apparmor.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── apport.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── atd.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── blk-availability.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── boot-efi.mount
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── cgroup.clone_children
+│   ├── cgroup.procs
+│   ├── cloud-config.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── cloud-final.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── cloud-init-local.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── cloud-init.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── console-setup.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── cpu.cfs_period_us
+│   ├── cpu.cfs_quota_us
+│   ├── cpu.shares
+│   ├── cpu.stat
+│   ├── cpuacct.stat
+│   ├── cpuacct.usage
+│   ├── cpuacct.usage_all
+│   ├── cpuacct.usage_percpu
+│   ├── cpuacct.usage_percpu_sys
+│   ├── cpuacct.usage_percpu_user
+│   ├── cpuacct.usage_sys
+│   ├── cpuacct.usage_user
+│   ├── cron.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── dbus.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── dev-hugepages.mount
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── dev-mqueue.mount
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── ebtables.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── ephemeral-disk-warning.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── grub-common.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── hv-kvp-daemon.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── hv-vss-daemon.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── keyboard-setup.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── kmod-static-nodes.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── lvm2-lvmetad.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── lvm2-monitor.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── lxcfs.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── lxd-containers.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── lxd.socket
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── networkd-dispatcher.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── notify_on_release
+│   ├── polkit.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── rsyslog.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── setvtrgb.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── snapd.seeded.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── snapd.socket
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── ssh.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── sys-fs-fuse-connections.mount
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── sys-kernel-config.mount
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── sys-kernel-debug.mount
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── system-getty.slice
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── system-serial\x2dgetty.slice
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── systemd-journal-flush.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── systemd-journald.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── systemd-logind.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── systemd-machine-id-commit.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── systemd-modules-load.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── systemd-networkd-wait-online.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── systemd-networkd.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── systemd-random-seed.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── systemd-remount-fs.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── systemd-resolved.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── systemd-sysctl.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── systemd-timesyncd.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── systemd-tmpfiles-setup-dev.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── systemd-tmpfiles-setup.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── systemd-udev-trigger.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── systemd-udevd.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── systemd-update-utmp.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── systemd-user-sessions.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── tasks
+│   ├── ufw.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── unattended-upgrades.service
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   ├── walinuxagent
+│   │   ├── cgroup.clone_children
+│   │   ├── cgroup.procs
+│   │   ├── cpu.cfs_period_us
+│   │   ├── cpu.cfs_quota_us
+│   │   ├── cpu.shares
+│   │   ├── cpu.stat
+│   │   ├── cpuacct.stat
+│   │   ├── cpuacct.usage
+│   │   ├── cpuacct.usage_all
+│   │   ├── cpuacct.usage_percpu
+│   │   ├── cpuacct.usage_percpu_sys
+│   │   ├── cpuacct.usage_percpu_user
+│   │   ├── cpuacct.usage_sys
+│   │   ├── cpuacct.usage_user
+│   │   ├── notify_on_release
+│   │   └── tasks
+│   └── walinuxagent.service
+│       ├── cgroup.clone_children
+│       ├── cgroup.procs
+│       ├── cpu.cfs_period_us
+│       ├── cpu.cfs_quota_us
+│       ├── cpu.shares
+│       ├── cpu.stat
+│       ├── cpuacct.stat
+│       ├── cpuacct.usage
+│       ├── cpuacct.usage_all
+│       ├── cpuacct.usage_percpu
+│       ├── cpuacct.usage_percpu_sys
+│       ├── cpuacct.usage_percpu_user
+│       ├── cpuacct.usage_sys
+│       ├── cpuacct.usage_user
+│       ├── notify_on_release
+│       └── tasks
+├── tasks
+└── user.slice
+    ├── cgroup.clone_children
+    ├── cgroup.procs
+    ├── cpu.cfs_period_us
+    ├── cpu.cfs_quota_us
+    ├── cpu.shares
+    ├── cpu.stat
+    ├── cpuacct.stat
+    ├── cpuacct.usage
+    ├── cpuacct.usage_all
+    ├── cpuacct.usage_percpu
+    ├── cpuacct.usage_percpu_sys
+    ├── cpuacct.usage_percpu_user
+    ├── cpuacct.usage_sys
+    ├── cpuacct.usage_user
+    ├── notify_on_release
+    └── tasks
+
+65 directories, 1058 files
